@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+mark {
+  width: fit-content;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+iframe,
+button,
+input,
+select,
+dialog,
+textarea {
+  display: block;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+article {
+  border-radius: var(--radius);
+}
+
+img,
+picture,
+video,
+iframe {
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+code,
+pre {
+  font-family: monospace;
+  font-weight: bold;
+}

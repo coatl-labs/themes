@@ -1,0 +1,31 @@
+{
+  "name": "@coatl/themes",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple css themes for any projects",
+  "main": "index.css",
+  "scripts": {
+    "deploy": "npm publish --access public"
+  },
+  "files": [
+    "base.css",
+    "reset.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coatl-labs/themes.git"
+  },
+  "keywords": [
+    "scss",
+    "themes",
+    "css",
+    "ui",
+    "reset"
+  ],
+  "author": "carlos-burelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coatl-labs/themes/issues"
+  },
+  "homepage": "https://github.com/coatl-labs/themes#readme"
+}
